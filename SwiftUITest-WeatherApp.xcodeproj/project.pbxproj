@@ -99,9 +99,9 @@
 		D05986C222A607B900AE59F8 /* SwiftUITest-WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				D05986F322A6084B00AE59F8 /* PresentationLayer */,
 				D05986C322A607B900AE59F8 /* AppDelegate.swift */,
 				D05986C522A607B900AE59F8 /* SceneDelegate.swift */,
-				D05986C722A607B900AE59F8 /* ContentView.swift */,
 				D05986C922A607BD00AE59F8 /* Assets.xcassets */,
 				D05986CE22A607BD00AE59F8 /* LaunchScreen.storyboard */,
 				D05986D122A607BD00AE59F8 /* Info.plist */,
@@ -134,6 +134,14 @@
 				D05986E722A607BD00AE59F8 /* Info.plist */,
 			);
 			path = "SwiftUITest-WeatherAppUITests";
+			sourceTree = "<group>";
+		};
+		D05986F322A6084B00AE59F8 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D05986C722A607B900AE59F8 /* ContentView.swift */,
+			);
+			path = PresentationLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
